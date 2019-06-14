@@ -26,9 +26,9 @@ This repository includes:
 
 3. A **graph** for the attack, corresponding to the set 𝓢
    with maximum cost 2×C_block_ (first line of Table 5).  
-   Due to size limits, the graph is only available as part of the releases:
-   https://github.com/Cryptosaurus/sha1-cp/releases.  (Note: the graph
-   only contains the nodes, the edges are recomputed on the fly)
+   Due to size limits, the graph is not in the git repo, but if available as part of the releases:  
+   https://github.com/Cryptosaurus/sha1-cp/releases/download/v1/diffset  
+   (Note: the graph only contains the nodes, the edges are recomputed on the fly)
 
 ## Attack simulator
 
@@ -45,7 +45,7 @@ the simulation results closely match the claims in the paper.
 
 To compile the program, just run `make`.  To use the simulator, you
 need a graph for the attack; you can download one with a release of
-the code: https://github.com/Cryptosaurus/sha1-cp/releases
+the code: https://github.com/Cryptosaurus/sha1-cp/releases/download/v1/diffset
 
 There are several ways to use the attack simulator, here are a few example:
 
