@@ -1,0 +1,3 @@
+[submodule "sha1_gpu_nearcollisionattacks"]
+	path = sha1_gpu_nearcollisionattacks
+	url = https://github.com/SHA-mbles/sha1_gpu_nearcollisionattacks
